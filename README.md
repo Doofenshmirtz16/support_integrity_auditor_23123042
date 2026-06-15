@@ -35,6 +35,7 @@ support_integrity_auditor/
 ├── app.py                     Streamlit app (single-ticket + batch + dashboard)
 ├── notebook.ipynb             Reproducible pipeline: Stage 1 -> 2 -> 3
 ├── requirements.txt           Runtime dependencies
+├── data/                      (Add dataset as required)
 ├── .streamlit/config.toml     App theme
 └── src/
     ├── config.py              Column normalization + severity ordinal scale
@@ -165,3 +166,8 @@ streamlit run app.py
 
 Set the model field in the sidebar to a local path (`models/sia_deberta`) or the Hugging
 Face repo id (`Darkrai17/sia-deberta`).
+
+## Author:
+- Sumit Sharma
+- Engineering Physics
+- 23123042
