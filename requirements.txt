@@ -1,0 +1,14 @@
+# Runtime dependencies (CPU-friendly, for Streamlit Community Cloud and local use).
+# The extra index makes pip pull the CPU build of PyTorch on Linux runners.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch>=2.2
+transformers>=4.44
+sentencepiece>=0.2
+sentence-transformers>=3.0
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+plotly>=5.22
+streamlit>=1.38
+huggingface_hub>=0.24
