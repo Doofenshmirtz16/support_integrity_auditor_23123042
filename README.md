@@ -6,7 +6,7 @@ human-assigned priority. There are no ground-truth mismatch labels in the data, 
 system bootstraps its own supervision signal, trains a classifier on it, and produces a
 hallucination-free Evidence Dossier for every flagged ticket.
 
-- **Hosted app:** https://share.streamlit.io/  *(replace with your deployed URL)*
+- **Hosted app:** https://supportintegrityauditor23123042-gydbcmvcqkmyszy3pidahv.streamlit.app/
 - **Model:** [`Darkrai17/sia-deberta`](https://huggingface.co/Darkrai17/sia-deberta)
 
 ## Pipeline
